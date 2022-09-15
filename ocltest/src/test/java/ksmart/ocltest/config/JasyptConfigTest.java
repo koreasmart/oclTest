@@ -16,8 +16,8 @@ class JasyptConfigTest {
 		
 		//given
 		String url = "jdbc:log4jdbc:mysql://localhost:3306/ks00team00db?serverTimezone=UTC&characterEncoding=UTF8";
-        String userName = "root";
-        String password = "java0000";
+        String userName = "ks00team00";
+        String password = "ks00teampw";
         
         StringEncryptor encryptor = stringEncryptor();
         
